@@ -1,0 +1,17 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="700" fill="#070708"/>
+<rect x="70" y="60" width="1060" height="580" rx="24" fill="#0D0D10" stroke="#29292F"/>
+<text x="105" y="110" fill="#F4F4F5" font-family="Arial" font-size="22" font-weight="700">Original vs suggested fix</text>
+<rect x="105" y="148" width="480" height="440" rx="14" fill="#09090B" stroke="#29292F"/>
+<text x="130" y="184" fill="#EF777D" font-family="Arial" font-size="12" font-weight="700">ORIGINAL</text>
+<text x="130" y="240" fill="#C4C4CC" font-family="monospace" font-size="15">for (let i = 0;</text>
+<rect x="126" y="258" width="410" height="36" rx="6" fill="#2B1114"/>
+<text x="138" y="282" fill="#FF737C" font-family="monospace" font-size="15">i &lt;= items.length; i++) {</text>
+<text x="130" y="330" fill="#C4C4CC" font-family="monospace" font-size="15">  total += items[i].price;</text>
+<rect x="615" y="148" width="480" height="440" rx="14" fill="#09090B" stroke="#294037"/>
+<text x="640" y="184" fill="#6EE7B7" font-family="Arial" font-size="12" font-weight="700">SUGGESTED</text>
+<text x="640" y="240" fill="#C4C4CC" font-family="monospace" font-size="15">for (let i = 0;</text>
+<rect x="636" y="258" width="410" height="36" rx="6" fill="#10251E"/>
+<text x="648" y="282" fill="#6EE7B7" font-family="monospace" font-size="15">i &lt; items.length; i++) {</text>
+<text x="640" y="330" fill="#C4C4CC" font-family="monospace" font-size="15">  total += items[i].price;</text>
+</svg>
