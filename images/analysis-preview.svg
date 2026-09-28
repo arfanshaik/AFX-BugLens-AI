@@ -1,0 +1,17 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="700" fill="#070708"/>
+<rect x="80" y="60" width="1040" height="580" rx="24" fill="#0D0D10" stroke="#29292F"/>
+<text x="120" y="115" fill="#F4F4F5" font-family="Arial" font-size="24" font-weight="700">BugLens analysis</text>
+<rect x="120" y="152" width="960" height="180" rx="16" fill="#101013" stroke="#4B1B20"/>
+<rect x="146" y="180" width="62" height="26" rx="7" fill="#301316"/>
+<text x="160" y="198" fill="#FF737C" font-family="Arial" font-size="11" font-weight="700">HIGH</text>
+<text x="146" y="243" fill="#F4F4F5" font-family="Arial" font-size="22" font-weight="700">Possible out-of-bounds loop</text>
+<text x="146" y="279" fill="#92929C" font-family="Arial" font-size="15">The loop allows i to equal array.length, which can access undefined.</text>
+<rect x="146" y="294" width="700" height="1" fill="#242429"/>
+<text x="146" y="317" fill="#C6C6CE" font-family="Arial" font-size="13">Fix: use i &lt; items.length instead of i &lt;= items.length.</text>
+<rect x="120" y="356" width="960" height="180" rx="16" fill="#101013" stroke="#2A2A30"/>
+<rect x="146" y="384" width="52" height="26" rx="7" fill="#12241F"/>
+<text x="159" y="402" fill="#6EE7B7" font-family="Arial" font-size="11" font-weight="700">LOW</text>
+<text x="146" y="447" fill="#F4F4F5" font-family="Arial" font-size="22" font-weight="700">Debug logging left in code</text>
+<text x="146" y="483" fill="#92929C" font-family="Arial" font-size="15">Console logging can create noise in production applications.</text>
+</svg>
