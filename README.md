@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/website-preview.svg" alt="AFX BugLens AI website preview" width="100%" />
+</p>
+
 # 🐞 AFX BugLens AI
 
 > **See the bug. Understand the fix.**
