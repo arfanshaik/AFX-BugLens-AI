@@ -1,0 +1,28 @@
+<svg width="1440" height="860" viewBox="0 0 1440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="860" fill="#070708"/>
+<circle cx="238" cy="80" r="240" fill="#EF4444" fill-opacity=".08"/>
+<rect x="64" y="44" width="1312" height="772" rx="26" fill="#0D0D10" stroke="#29292F"/>
+<rect x="92" y="72" width="42" height="42" rx="12" fill="#1B1012" stroke="#3A1518"/>
+<text x="151" y="91" fill="#F7F7F8" font-family="Arial" font-weight="700" font-size="20">AFX BugLens</text>
+<text x="151" y="111" fill="#71717A" font-family="Arial" font-size="12">AI debugging workspace</text>
+<text x="92" y="190" fill="#F97316" font-family="Arial" font-weight="700" font-size="12">HACKATHON BUILD</text>
+<text x="92" y="258" fill="#F7F7F8" font-family="Arial" font-weight="700" font-size="56">See the bug.</text>
+<text x="92" y="316" fill="#787881" font-family="Arial" font-weight="700" font-size="56">Understand the fix.</text>
+<rect x="92" y="370" width="740" height="392" rx="18" fill="#09090B" stroke="#232328"/>
+<text x="118" y="405" fill="#D4D4D8" font-family="Arial" font-weight="700" font-size="14">Code input · JavaScript</text>
+<text x="118" y="453" fill="#8DA4C5" font-family="monospace" font-size="16">function calculateTotal(items) {</text>
+<text x="118" y="485" fill="#C4C4CC" font-family="monospace" font-size="16">  let total = 0;</text>
+<text x="118" y="517" fill="#FF737C" font-family="monospace" font-size="16">  for (let i = 0; i &lt;= items.length; i++) {</text>
+<text x="118" y="549" fill="#C4C4CC" font-family="monospace" font-size="16">    total += items[i].price;</text>
+<text x="118" y="581" fill="#C4C4CC" font-family="monospace" font-size="16">  }</text>
+<rect x="858" y="370" width="490" height="392" rx="18" fill="#101013" stroke="#232328"/>
+<text x="884" y="405" fill="#D4D4D8" font-family="Arial" font-weight="700" font-size="14">BugLens analysis</text>
+<rect x="884" y="440" width="438" height="142" rx="13" fill="#0C0C0F" stroke="#3A171B"/>
+<rect x="904" y="459" width="55" height="23" rx="6" fill="#301316"/>
+<text x="916" y="475" fill="#FF737C" font-family="Arial" font-weight="700" font-size="10">HIGH</text>
+<text x="904" y="514" fill="#F4F4F5" font-family="Arial" font-weight="700" font-size="17">Possible out-of-bounds loop</text>
+<text x="904" y="542" fill="#8B8B95" font-family="Arial" font-size="13">Use i &lt; items.length instead of i &lt;= items.length.</text>
+<rect x="884" y="600" width="438" height="120" rx="13" fill="#0C0C0F" stroke="#243029"/>
+<text x="904" y="633" fill="#6EE7B7" font-family="Arial" font-weight="700" font-size="12">SUGGESTED FIX</text>
+<text x="904" y="671" fill="#C4C4CC" font-family="monospace" font-size="14">for (let i = 0; i &lt; items.length; i++)</text>
+</svg>
